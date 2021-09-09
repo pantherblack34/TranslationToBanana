@@ -1,3 +1,3 @@
-console.log('just checking that this works from importing outside.');
-var name = prompt('Enter your name');
-alert('This script works.' + name);
+const button = document.querySelector('#btn-translate');
+
+console.log('translated');
