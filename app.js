@@ -1,5 +1,6 @@
-const button = document.querySelector('#btn-translate');
+const btnTranslate = document.querySelector("#btn-translate");
 
-button.addEventListener('click', function clickEventHandler(){
-    console.log('clicked')
+btnTranslate.addEventListener("click", function clicked() {
+    console.log("clicked")
 });
+
