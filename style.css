@@ -1,11 +1,24 @@
 #text-area{
     width: 90%;
     display: block;
-    height: 40%;
+    height: 10vh;
     padding: 1rem;
 }
 
 #btn-translate{
     margin: 1rem 0rem;
     padding: 0.5rem;
+} 
+
+.text{
+    font-size: larger;
+    padding: 0.5rem;
+}
+
+#textarea{
+    display: block;
+    border: 1px solid black;
+    height: 10vh;
+    width: 90%;
+    padding: 1rem;   
 }
