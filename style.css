@@ -1,11 +1,11 @@
-#text-area{
+#txtInput{
     width: 90%;
     display: block;
     height: 10vh;
     padding: 1rem;
 }
 
-#btn-translate{
+#btnTranslate{
     margin: 1rem 0rem;
     padding: 0.5rem;
 } 
@@ -15,7 +15,7 @@
     padding: 0.5rem;
 }
 
-#textarea{
+#outputDiv{
     display: block;
     border: 1px solid black;
     height: 10vh;
