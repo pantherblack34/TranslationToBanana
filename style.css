@@ -1,84 +1,99 @@
+:root{
+    --primary-color: #FBBF24;
+    --bg1: #F59E0B;
+    --bg2: #1E40AF;
+    --outputtxt: #FDE68A;
+}
+
+
 body{
-    background-image: linear-gradient(to right,blue, yellow);
-}
-
-
-h1 {
-    display: inline-block;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bolder;
-    color: #FBBF24;
-    background: black;
-    border-radius: 2rem 2rem;
-    padding: 1rem 1rem;
-}
-
-
-#txtInput {
-    width: 30%;
+    margin: 0;
+    padding: 0;
     display: block;
-    height: 10vh;
-    padding: 1rem;
-    background: black;
-    background-color: #FEF3C7;
+    text-align: center;
+    font-family: cursive;
+    overflow: hidden;
 }
 
-#btnTranslate {
-    margin: 2rem 9rem;
-    padding: 1rem;
+#wrapper{
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, var(--bg1), var(--bg2) );
+}
+
+.head{
+    width: 100%;
+    margin: auto;
+    height: 10vh;
+    background-color: var(--primary-color);
+}
+
+.head h1{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3{
+    display: block;
+    text-align: left;
+    margin-left: 380px;
+}
+
+#txtInput{
+    display: block;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    height: 20vh;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#txtInput::placeholder{
     font-size: larger;
-    font-weight: bolder;
-    width: 300px;
-    height: 70px;
-    border-radius: 0% 0 110% 80px;
-    background: black;
-    background-color: yellow;
+    font-weight: bold;
+    color: rgb(21, 9, 78);
 }
 
-.minion {
-    width: 340px;
-    height: 450px;
-    float: right;
-    position: relative;
-    top: -400px;
-    right: 230px;
-}
-
-.bananaTop {
-    width: 85px;
-    height: 3vh;
-    background-color: brown;
-    border-radius: 10px 0 0 700px;
-    position: absolute;
-    display: flex;
-    top: 280px;
-    left: 85px;
-    z-index: -1;
-}
-
-.text {
-    position: relative;
-    bottom: -230px;
-    right: 625px;
-    font-size: x-large;
-    padding: 0.5rem;
-    float: right;
-}
-
-.minion1{
-    max-width: 240px;
-    position: relative;
-    left: 200px;
-}
-
-#outputDiv {
-    position: relative;
-    bottom: -150px;
+#btnTranslate{
     display: block;
-    border: 1px solid black;
-    height: 10vh;
-    width: 30%;
-    padding: 1rem;
-    background-color: #FCD34D;
-    float: right;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, var(--bg1), var(--bg2));
+}
+
+#btnTranslate p{
+    font-family: fantasy;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#output-div{
+    display: block;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    height: 20vh;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: var(--outputtxt);
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+    height: 20vh;
+    background-color: var(--primary-color);
+}
+
+footer p{
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--bg2);
 }
